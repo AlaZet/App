@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GUILD</title>
+    </head>
+        <body>
+            <h1>Python guild rocks</h1>
+            <ul>
+                {% for link in link %}
+                <li>
+                <a href="{{link.url}}">{{link.title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </body>
+</html>
